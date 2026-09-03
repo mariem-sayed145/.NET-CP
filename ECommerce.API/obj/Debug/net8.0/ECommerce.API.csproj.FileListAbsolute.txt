@@ -1,0 +1,8 @@
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.csproj.AssemblyReference.cache
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.AssemblyInfoInputs.cache
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.AssemblyInfo.cs
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.csproj.CoreCompileInputs.cache
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.API\obj\Debug\net8.0\ECommerce.API.sourcelink.json
