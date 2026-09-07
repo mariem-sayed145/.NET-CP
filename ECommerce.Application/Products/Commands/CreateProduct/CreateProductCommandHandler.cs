@@ -1,4 +1,4 @@
-﻿using ECommerce.Application.Common.Exceptions;
+using ECommerce.Application.Common.Exceptions;
 using ECommerce.Application.Interfaces.Repositories;
 using ECommerce.Application.Interfaces.Services;
 using ECommerce.Application.Products.DTOs;
@@ -10,22 +10,26 @@ namespace ECommerce.Application.Products.Commands.CreateProduct;
 public sealed class CreateProductCommandHandler
     : IRequestHandler<CreateProductCommand, ProductResponse>
 {
+    private const string AllProductsCacheKey = "products:all";
+
     private readonly IProductRepository _productRepository;
     private readonly IUnitOfWork _unitOfWork;
+    private readonly ICacheService _cache;
 
     public CreateProductCommandHandler(
         IProductRepository productRepository,
-        IUnitOfWork unitOfWork)
+        IUnitOfWork unitOfWork,
+        ICacheService cache)
     {
         _productRepository = productRepository;
         _unitOfWork = unitOfWork;
+        _cache = cache;
     }
 
     public async Task<ProductResponse> Handle(
         CreateProductCommand request,
         CancellationToken cancellationToken)
     {
-        // Check if SKU already exists
         if (await _productRepository.ExistsBySkuAsync(
             request.SKU,
             cancellationToken))
@@ -34,14 +38,12 @@ public sealed class CreateProductCommandHandler
                 $"Product with SKU '{request.SKU}' already exists.");
         }
 
-        // Create product
         var product = new Product(
             request.Name,
             request.SKU,
             request.Price,
             request.StockQuantity);
 
-        // Save product
         await _productRepository.AddAsync(
             product,
             cancellationToken);
@@ -49,7 +51,9 @@ public sealed class CreateProductCommandHandler
         await _unitOfWork.SaveChangesAsync(
             cancellationToken);
 
-        // Return response
+        // The products list is now outdated.
+        await _cache.RemoveAsync(AllProductsCacheKey);
+
         return product.ToResponse();
     }
 }
