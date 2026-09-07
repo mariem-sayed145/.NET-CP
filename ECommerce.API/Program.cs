@@ -4,8 +4,19 @@ using ECommerce.Application.Orders.Commands.CheckoutOrder;
 using ECommerce.Infrastructure.DependencyInjection;
 using ECommerce.Infrastructure.Persistence;
 using MediatR;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+{
+    var connectionString =
+        builder.Configuration.GetConnectionString("Redis");
+
+    return ConnectionMultiplexer.Connect(connectionString!);
+});
+
+builder.Services.AddScoped<ICacheService, RedisCacheService>();
 
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssemblyContaining<CheckoutOrderCommand>());
