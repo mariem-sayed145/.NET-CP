@@ -26,9 +26,9 @@ public sealed class RedisCacheService : ICacheService
     }
 
     public async Task SetAsync<T>(
-        string key,
-        T value,
-        TimeSpan? expiration = null)
+    string key,
+    T value,
+    TimeSpan? expiration = null)
     {
         var db = _redis.GetDatabase();
 
@@ -37,9 +37,10 @@ public sealed class RedisCacheService : ICacheService
         await db.StringSetAsync(
             key,
             json,
-            expiration);
-    }
-
+            expiration.HasValue
+                ? new Expiration(expiration.Value)
+                : Expiration.Default);
+    } 
     public async Task RemoveAsync(string key)
     {
         var db = _redis.GetDatabase();

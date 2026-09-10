@@ -14,3 +14,19 @@ C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\EComm
 C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.Application\obj\Debug\net8.0\refint\ECommerce.Application.dll
 C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.pdb
 C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.Application\obj\Debug\net8.0\ref\ECommerce.Application.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\bin\Debug\net8.0\ECommerce.Application.deps.json
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\bin\Debug\net8.0\ECommerce.Application.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\bin\Debug\net8.0\ECommerce.Application.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\bin\Debug\net8.0\ECommerce.Domain.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.csproj.AssemblyReference.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.AssemblyInfoInputs.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.AssemblyInfo.cs
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.sourcelink.json
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerc.670E0CBE.Up2Date
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\refint\ECommerce.Application.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Application\obj\Debug\net8.0\ref\ECommerce.Application.dll

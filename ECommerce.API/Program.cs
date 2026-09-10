@@ -5,6 +5,7 @@ using ECommerce.Infrastructure.DependencyInjection;
 using ECommerce.Infrastructure.Persistence;
 using MediatR;
 using StackExchange.Redis;
+using ECommerce.API.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,7 @@ builder.Services.AddMediatR(cfg =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSignalR(); 
 
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
@@ -51,6 +53,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+app.MapHub<ChatHub>("/hubs/chat");
 
 public partial class Program
 {

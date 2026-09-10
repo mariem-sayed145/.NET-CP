@@ -20,7 +20,7 @@ public sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.HasData(
             new { Id = 1, Name = "Mechanical Keyboard", SKU = "TECH-MK-01", Price = 120.00m, StockQuantity = 25 },
             new { Id = 2, Name = "Wireless Ergonomic Mouse", SKU = "TECH-WM-02", Price = 45.50m, StockQuantity = 40 },
-            new { Id = 3, Name = "UltraWide Monitor 34"", SKU = "DISP-UW-03", Price = 650.00m, StockQuantity = 8 },
+            new { Id = 3, Name = "UltraWide Monitor 34", SKU = "DISP-UW-03", Price = 650.00m, StockQuantity = 8 },
             new { Id = 4, Name = "USB-C Multiport Dock", SKU = "ACC-DK-04", Price = 85.00m, StockQuantity = 15 },
             new { Id = 5, Name = "Noise Cancelling Headphones", SKU = "AUD-NC-05", Price = 220.00m, StockQuantity = 12 }
         );

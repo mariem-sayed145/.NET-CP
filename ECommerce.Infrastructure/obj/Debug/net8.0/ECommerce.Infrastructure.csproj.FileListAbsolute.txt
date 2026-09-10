@@ -4,3 +4,23 @@ C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\EComm
 C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfo.cs
 C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Mariam\source\repos\codeplus_step1_solution_OnionArchitecture\src\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.sourcelink.json
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfo.cs
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.sourcelink.json
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.deps.json
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.runtimeconfig.json
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerc.B0B31267.Up2Date
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\refint\ECommerce.Infrastructure.dll
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.genruntimeconfig.cache
+C:\Users\Mariam\OneDrive\Desktop\task 5\ECommerce.Infrastructure\obj\Debug\net8.0\ref\ECommerce.Infrastructure.dll

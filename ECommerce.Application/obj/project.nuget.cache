@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "7wr1XwwGoRU=",
+  "dgSpecHash": "7e96ofz6uPY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mariam\\source\\repos\\codeplus_step1_solution_OnionArchitecture\\src\\ECommerce.Application\\ECommerce.Application.csproj",
+  "projectFilePath": "C:\\Users\\Mariam\\OneDrive\\Desktop\\task 5\\ECommerce.Application\\ECommerce.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mariam\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Mariam\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
   ],
   "logs": []
 }

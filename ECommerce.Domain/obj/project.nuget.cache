@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "K8D56r/3mxU=",
+  "dgSpecHash": "1DAPysn97IQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mariam\\source\\repos\\codeplus_step1_solution_OnionArchitecture\\src\\ECommerce.Domain\\ECommerce.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Mariam\\OneDrive\\Desktop\\task 5\\ECommerce.Domain\\ECommerce.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\Mariam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512"
+  ],
   "logs": []
 }

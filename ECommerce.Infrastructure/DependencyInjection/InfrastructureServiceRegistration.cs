@@ -24,6 +24,9 @@ public static class InfrastructureServiceRegistration
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IPaymentGateway, FakePaymentGateway>();
 
+        services.AddScoped<IApplicationDbContext>(
+    provider => provider.GetRequiredService<AppDbContext>());
+
         return services;
     }
 }
